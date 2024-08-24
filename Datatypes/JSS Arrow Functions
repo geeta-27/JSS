@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Normal Function</h1>
+    <script>
+        function hello(){
+            return "Hello World!"
+        }
+        document.write(hello());
+    </script>
+    <h1>OR</h1>
+    <script>
+        var read = function hello(){
+            return "Hello World!"
+        }
+        document.write(read(hello));
+    </script>
+    <h1>OR</h1>
+    <h1>ARROW Function</h1>
+    <script>
+        var read = () => {
+            return "Hello World!";
+    }
+        document.write(read(hello));
+    </script>
+    <h1>OR</h1>
+    <script>
+        var ink = name => "Hello World!"+ " " + name;
+        document.write(ink("Geetha"));
+    </script>
+    
+</body>
+</html>

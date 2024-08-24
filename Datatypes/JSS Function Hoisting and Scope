@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Non-return type</h1>
+    <script>
+        //here it is not accessable or use
+
+        function queen() {
+            let var4 = "Amongus";
+            document.write(var4);
+
+            //here it is accessable or use
+        }
+
+        //here it is not accessable or use
+    </script>
+    <h1>retrun type</h1>
+    <script>
+        function queen() {
+            let var4 = "Amongus";
+            return var4;
+        }
+        document.write(queen());
+
+    </script>
+
+
+</body>
+
+</html>

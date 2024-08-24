@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Anonymous named function</h1>
+    <p><b>Anonymous function expression</b></p>
+    <script>
+        const var_add = function(a,b)
+        {
+            return a+b;
+        }
+        document.write(var_add(4,4));
+    </script>
+     <p><b>Named function expression</b></p>
+     <script>
+         const var_sub = function getSubtracted(a,b)
+         {
+             return a-b;
+         }
+         document.write(var_sub(4,4));
+     </script>
+
+
+<br>
+
+<h1>With calling named function!</h1>
+
+<script>
+    function getaddition(a,b)
+    {
+        return a+b;
+    }
+    document.write(getaddition(4,4));
+</script>
+    
+</body>
+</html>

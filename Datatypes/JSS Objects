@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>this keyword</h1>
+    <script>
+        let x = this;
+        document.write(x);
+    </script>
+    <h1>OR</h1>
+    <p id="demo"></p>
+    <script>
+        function myFunction() {
+            return this;
+        }
+        document.getElementById("demo").innerHTML = myFunction();
+
+    </script>
+    <h1>Object</h1>
+    <script>
+        const p = { fn: "Geetha", ln: "Prasanna", pn: "9620243880", id: "580222033355" }
+        document.write(p.fn + " " + p.ln + " " + p.pn + " " + p.id);
+        document.write(p["fn"])
+    </script>
+    <h1>this keyword</h1>
+    <script>
+        const l =
+        {
+            fn: "Geetha",
+            ln: "Prasanna",
+            pn: "9620243880",
+            id: "580222033355",
+
+            fullName: function () {
+                return this.fn + " " + this.ln;
+            }
+        }
+        document.write(l.fullName());
+
+    </script>
+    <h1>for in loop</h1>
+    <script>
+        const p1 = { fn: "Geetha", ln: "Prasanna", pn: "9620243880", id: "580222033355" };
+        const p2 = { fn: "Munna", ln: "L", id: "98765432789", ph: "7829785629" };
+
+        const arr = [p1, p2];
+        // document.write(arr);
+
+        for (let x in arr) {
+            // document.write(arr[x]);
+
+            for (const item in arr[x]) {
+                document.write(item+" : "+ arr[x][item]);
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>

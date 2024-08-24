@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const fruits = ["Apple", "Banana", "Carrot", "Dates"];
+        document.write(fruits); 
+    </script>
+    <br>
+    <script>
+        document.write(fruits[0]);
+    </script>
+    <br>
+    <script>
+        document.write(fruits.length);
+    </script>
+    <br>
+    <script>
+        document.write(fruits[fruits.length-1]);
+    </script>
+    <br>
+    <script>
+        document.write(typeof(fruits));
+    </script>
+    <br>
+    <script>
+        fruits.push("Water Melon");
+    </script>
+    <br>
+    <script>
+        document.write(fruits);
+    </script>
+    <br>
+    <script>
+        document.write(fruits.length);
+    </script>
+    <br>
+    <script>
+        fruits[0]="Avocado";
+    </script>
+    <br>
+    <script>
+        document.write(fruits)
+    </script>
+    <br>
+    <script>
+        fruits.push("Peach", " Orange", "Lemon");
+    </script>
+    <br>
+    <script>
+        document.write(fruits)
+    </script>
+    <br>
+    <script>
+        fruits.pop()
+    </script>
+    <br>
+    <script>
+      document.write(fruits)
+    </script>
+   
+
+
+</body>
+</html>

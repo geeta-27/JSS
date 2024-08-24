@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // var name = "Munna";
+        // console.log(name.slice(1, 4));
+        // var name = "Munna";
+        // console.log(name.slice(0, ));
+        // var name = "Munna";
+        // console.log(name.slice(0, 1));
+        // var name = "Munna";
+        // name.toLocaleUpperCase();
+        // var name = "MUNNA";
+        // name.toLocaleLowerCase();
+        // var fname = "Munna";
+        // var correct_name = fname.slice(0,1).toUpperCase()+fname.slice(1, ).toLocaleLowerCase();
+        // console.log(correct_name);
+
+
+        var name = prompt("Enter your name");
+
+        var fname = "Munna";
+        var correct_name = fname.slice(0,1).toUpperCase()+fname.slice(1, ).toLocaleLowerCase();
+        
+        var tweet = prompt("Hey, "+correct_name+" Enter your tweet");
+        // alert("Your Tweet has "+tweet.length+" characters and "+(140-tweet.length)+" are left"); 
+        alert("Your tweet: "+ tweet.slice(0, 140));
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+<h1>Inline JSS</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2{
+            text-align: center;
+            color: rgb(231, 15, 213);
+        }
+    </style>
+</head>
+<body onload = "confirm('what are you doing?')">
+    <h2>I am good!</h>
+    
+</body>
+</html>
+
+
+
+<h1>Internal JSS</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        confirm("what do you feel?");
+    </script>
+    <h2>Good to you to go!</h2>
+</body>
+</html>
+
+
+
+<h1>External JSS</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="JSS DOM/JSS.js"></script>
+    <h2>what is your plan about you trip!</h2>
+    
+</body>
+</html>

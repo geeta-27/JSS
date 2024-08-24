@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var name = prompt("Enter your name");
+        var tweet = prompt("Hey, "+name+" Enter your tweet");
+        alert("Your Tweet has "+tweet.length+" characters and "+(140-tweet.length)+" are left"); 
+        </script>
+
+</head>
+<body>
+    
+</body>
+</html>

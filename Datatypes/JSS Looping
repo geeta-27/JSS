@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const fruits = ["Apple", "Banana", "Carrot", "Dates"];
+        document.write(fruits); 
+    </script>
+
+    <h1>for loop</h1>
+    <script>
+        for(i=0; i<fruits.length; i++)
+        document.write(fruits[i]);
+    </script>
+    
+    <h1>while loop</h1>
+    <p>Its prints after execution</p>
+    <script>
+    var i=0;
+    while(i<fruits.length){
+    document.write(fruits[i])
+    i++;
+    }
+    </script>
+
+    <h1>do while loop</h1>
+    <p>Its prints before execution</p>
+    <script>
+        a=0;
+        do{
+            document.write(fruits[a]);
+            a++;
+         }while(a<fruits.length)
+    </script>
+    <h1>"for in loop" present in python</h1>
+
+    <script>
+        const numbers = [1, 2, 3, 4, 5];
+        let sum=0;
+        for(let x in numbers){
+            sum = sum + numbers[x];
+        }
+        document.write(sum);
+
+    </script>
+    <h1>Another way of for in loop</h1>
+    <script>
+        const no = [1, 2, 3, 4, 5];
+        let add=0;
+        for(let x in numbers){
+            add += numbers[x];
+        }
+        document.write(sum);
+
+    </script>
+</body>
+</html>

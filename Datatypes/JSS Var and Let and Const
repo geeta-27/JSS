@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>var</h1>
+    <p><b>Var redeclaration does not </b></p>
+       <script>
+        var x =10;
+        var x=5;
+        document.write(x);
+    </script>
+   
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Let</h1>
+    <p><b>Let redeclaration returns error</b></p>
+       <script>
+        let s =10;
+        let s=5;
+        document.write(s);
+    </script>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Const</h1>
+    <p><b>Const redeclaration returns error</b></p>
+       <script>
+        const y =10;
+        const y=19;
+        document.write(y);
+    </script>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Scope of VAR</h1>
+    <script>
+        var a = 10;
+       
+        {
+            var a =18;
+           
+        }
+        document.write(a);
+    </script>
+    
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Scope of LET</h1>
+    <script>
+        let b = 10;
+       
+        {
+            let b =18;
+           
+        }
+        document.write(b);
+    </script>
+    
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Scope of LET and VAR</h1>
+    <script>
+        var c = 10; //allowed
+        let c = 10; //not allowed
+       
+        {
+            let d = 18; //allowed
+            let d = 15; //not allowed
+            document.write(d);
+           
+        }
+        {
+            let e = 10; //allowed
+            var e = 10; //not allowed
+            document.write(e);
+        }
+        document.write(c);
+    </script>
+    
+</body>
+</html>
